@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 28% 8%;
+    --foreground: 40 20% 94%;
+    --primary: 40 72% 52%;
+    --primary-foreground: 30 28% 8%;
+    --secondary: 35 20% 18%;
+    --secondary-foreground: 40 20% 94%;
+    --muted: 35 15% 22%;
+    --muted-foreground: 40 15% 65%;
+    --accent: 40 72% 52%;
+    --accent-foreground: 30 28% 8%;
+    --border: 35 15% 25%;
+    --input: 35 15% 25%;
+    --ring: 40 72% 52%;
+    --radius: 0.875rem;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Noto Sans Arabic', system-ui, sans-serif;
+    @apply bg-background text-foreground antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Amiri', serif;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
