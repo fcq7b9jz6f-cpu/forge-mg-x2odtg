@@ -15,7 +15,7 @@
     "lucide-react": "^0.451.0",
     "clsx": "^2.1.1",
     "tailwind-merge": "^2.5.4",
-    "react-helmet-async": "2.0.5",
+    "react-helmet-async": "^2.0.5",
     "class-variance-authority": "^0.7.0",
     "react-hook-form": "^7.53.0",
     "@hookform/resolvers": "^3.9.0",
